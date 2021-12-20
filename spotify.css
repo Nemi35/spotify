@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow: auto;
+}
+ul {
+  list-style-type: none;
+}
+.flex {
+  display: flex;
+}
+.nav_1 {
+  width: 14vw;
+  height: 100vh;
+  background-color: rgb(14, 13, 13);
+  z-index: 1;
+  overflow: hidden;
+}
+nav ul li {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 15px;
+  display: flex;
+  margin: 10px 15px;
+  align-items: center;
+}
+.topcontainer {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.rightNav {
+  width: 14vw;
+  display: flex;
+  background-color: rgb(34, 32, 32);
+}
+.nav_1 .rightNav {
+  height: 88vh;
+}
+.head {
+  width: 72vw;
+  height: 300px;
+  background-color: rgb(61, 60, 60);
+}
+nav ul li i {
+  margin-right: 24px;
+}
+#headTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.arrow {
+  margin: 10px 15px;
+}
+.Update {
+  display: flex;
+  justify-content: center;
+  height: 44px;
+  border-radius: 10px;
+  align-items: center;
+}
+#Update {
+  height: 37px;
+  border-radius: 38px;
+  padding: 14px;
+  justify-content: center;
+  margin: 10p;
+  display: flex;
+  width: 108px;
+  background-color: rgb(47, 47, 47);
+  color: white;
+  align-items: center;
+}
+
+.userName {
+  margin: 5px 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 46px;
+  background-color: rgb(47, 47, 47);
+  width: 91px;
+  height: 35px;
+}
+
+.usericon {
+  padding: 10px;
+}
+.topleft {
+  display: flex;
+  margin: 10px 15px;
+}
+.headPaster {
+  width: 13em;
+  height: 13em;
+  background-color: burlywood;
+  margin: 0 26px;
+  object-fit: fill;
+}
+.headText {
+  display: inline-flex;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+}
+#headposter {
+  display: flex;
+  align-items: end;
+}
+.container {
+  width: 72vw;
+  background-color: rgb(22, 20, 20);
+  flex-direction: row;
+}
+.containerH {
+  min-height: 75vh;
+  font-family: "Poppins", sans-serif;
+  margin: 2px -6px;
+  background-color: rgb(37, 37, 37);
+  overflow: auto;
+  height: 12px;
+}
+.songList {
+  overflow: hidden;
+}
+.bottom {
+  position: sticky;
+  bottom: 0;
+  background-color: black;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  flex-direction: column;
+}
+.icons {
+  margin-bottom: 19px;
+  margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 13px;
+}
+.icons i {
+  cursor: pointer;
+}
+.circle {
+  padding: 0 18px;
+}
+#myProgressBar {
+  width: 31vw;
+  cursor: pointer;
+  background-color: rgb(53, 52, 52);
+  position: relative;
+  bottom: 19px;
+}
+.songItem {
+  color: white;
+  display: flex;
+  background-color: rgb(37, 37, 37);
+  height: 50px;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.songimg {
+  width: 37px;
+}
+.spanimg {
+  display: flex;
+}
+.space {
+  margin: 0 24px;
+  align-items: center;
+}
+.songL {
+  margin: 10px;
+}
+.space1 {
+  margin: 10px;
+}
+.songItemnew {
+  color: white;
+  display: flex;
+  background-color: rgb(37, 37, 37);
+  width: 100%;
+  height: 36px;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: end;
+  position: static;
+}
+.spannew {
+  margin: 0 48px;
+}
+.Albumnew {
+  position: relative;
+  left: 53px;
+}
+.datenew {
+  position: relative;
+  left: 64px;
+}
+.songL :hover {
+  background-color: rgb(59, 59, 59);
+  border-radius: 7px;
+}
+#bottoomimg {
+  display: flex;
+  position: relative;
+  right: 42vw;
+  align-items: center;
+  justify-content: center;
+  top: 34px;
+}
+#bottoomimg img{
+  margin: 0 25px;
+  width: 63px;
+  height: 52px;
+}
